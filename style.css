@@ -290,7 +290,7 @@ header {
 
 .my-services {
     background-color: var(--color-dark);
-    background-image: url(../img/computer-background.jpg);
+    background-image: url(../img-compress/computer-background.webp);
     background-size: cover;
     background-blend-mode: darken;
     color: var(--color-light);
@@ -393,7 +393,7 @@ header {
     max-width: 1000px;
     display: grid;
     grid-gap: 2em;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
 }
 
 .portfolio__item {
@@ -441,6 +441,8 @@ header {
 
 .footer__link {
     font-weight: var(--fw-bold);
+    border: 1px solid #f86eb3;
+    padding:  .1em .3em;
 }
 
 .footer__link:hover,
@@ -449,7 +451,8 @@ header {
 }
 
 .footer__link:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: white;
 }
 
 .social-list {
